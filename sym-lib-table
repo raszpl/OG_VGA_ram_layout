@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "4464_DRAM") (type "KiCad") (uri "${KIPRJMOD}/4464_DRAM.kicad_sym") (options "") (descr ""))
+)
