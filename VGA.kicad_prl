@@ -8,7 +8,7 @@
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
-      "images": 0.7400000095367432,
+      "images": 0.8299999833106995,
       "pads": 1.0,
       "shapes": 1.0,
       "tracks": 1.0,
@@ -51,7 +51,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_55555555_d7555521",
+    "visible_layers": "00000000_00000000_55555555_55555525",
     "zone_display_mode": 0
   },
   "git": {

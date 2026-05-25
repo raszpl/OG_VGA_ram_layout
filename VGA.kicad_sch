@@ -1597,7 +1597,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 88.9) (xy 182.88 88.9)
+			(xy 182.88 88.9) (xy 180.34 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1734,6 +1734,16 @@
 			(type default)
 		)
 		(uuid "52034378-cfe0-4b9a-94d5-e37396133edd")
+	)
+	(wire
+		(pts
+			(xy 139.7 50.8) (xy 142.24 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "533b6de7-b0de-4220-a394-669aa602ba39")
 	)
 	(wire
 		(pts
@@ -2485,6 +2495,39 @@
 		)
 		(uuid "044bea4f-7575-4b6a-98a6-483a4383817a")
 	)
+	(label "RAS3"
+		(at 53.34 76.2 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0466dc2b-5dae-4004-a019-640093f778dc")
+		(property "Net Class" ""
+			(at 54.61 76.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(label "CAS3"
+		(at 58.42 127 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "06346739-45dc-4d7d-8bfe-ff1e3b707238")
+	)
 	(label "A2_2"
 		(at 48.26 96.356 270)
 		(effects
@@ -2515,7 +2558,7 @@
 		)
 		(uuid "0f921a15-3334-47ee-b4ac-3f6f0634b8f3")
 	)
-	(label "A4_"
+	(label "A4"
 		(at 93.98 45.72 90)
 		(effects
 			(font
@@ -2626,7 +2669,7 @@
 		(uuid "33863fa1-e95d-49ff-b2e2-d88671953f6f")
 	)
 	(label "A6"
-		(at 182.88 88.9 180)
+		(at 180.34 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2655,35 +2698,15 @@
 		)
 		(uuid "39305543-8ce1-4d62-9db7-f6f065343ce2")
 	)
-	(label "A4_3"
-		(at 45.72 76.2 90)
+	(label "A6_2"
+		(at 50.8 76.2 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "39d35bbf-c9df-4c7a-8650-d18ec49d32e9")
-	)
-	(label "A4_3"
-		(at 45.72 106.68 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3c706e0c-cb32-409c-af28-36f109466d06")
-	)
-	(label "A6_3"
-		(at 50.8 45.72 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "416ae9eb-e88f-4487-845e-4970b53bc17c")
+		(uuid "3a6c9636-6c90-401b-96b9-5ca4f2511dce")
 	)
 	(label "A3"
 		(at 93.98 127 270)
@@ -2755,16 +2778,6 @@
 		)
 		(uuid "5ca97464-aa3c-4de3-ad77-d3bd7b5299e2")
 	)
-	(label "A6_3"
-		(at 50.8 106.68 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5e6e3f4f-52b3-4ad9-8cbb-71fe34ee529d")
-	)
 	(label "A1"
 		(at 99.06 127 270)
 		(effects
@@ -2774,6 +2787,16 @@
 			(justify right bottom)
 		)
 		(uuid "60503efb-a134-4c84-9176-ad5e9e885c57")
+	)
+	(label "A5_2"
+		(at 48.26 76.2 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61d41c9c-7543-443c-8b9a-f306c285ee54")
 	)
 	(label "A1_2"
 		(at 50.8 66.04 270)
@@ -2795,7 +2818,7 @@
 		)
 		(uuid "647cd087-85df-4fac-921f-8b76ed76f5df")
 	)
-	(label "A5_"
+	(label "A5"
 		(at 96.52 76.2 90)
 		(effects
 			(font
@@ -2805,17 +2828,7 @@
 		)
 		(uuid "6685c24c-f740-47e6-a746-37bac5201715")
 	)
-	(label "A5_3"
-		(at 48.26 106.68 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "686fad22-eee9-40c1-81ee-2d02d15676c0")
-	)
-	(label "A6_3"
+	(label "A6_2"
 		(at 50.8 137.16 90)
 		(effects
 			(font
@@ -2825,7 +2838,7 @@
 		)
 		(uuid "69fa2415-a9fe-4b7c-a66c-6d62d31f1af5")
 	)
-	(label "A6_"
+	(label "A6"
 		(at 99.06 76.2 90)
 		(effects
 			(font
@@ -2865,16 +2878,6 @@
 		)
 		(uuid "725c8af4-c5a7-4edc-9479-92d54f14ef4c")
 	)
-	(label "A6_3"
-		(at 50.8 76.2 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "74ab9604-962c-4a94-85ce-3342c62f0bc1")
-	)
 	(label "OE"
 		(at 111.76 137.16 90)
 		(effects
@@ -2884,6 +2887,16 @@
 			(justify left bottom)
 		)
 		(uuid "76e36454-87e5-469a-bd16-6d8b09aef705")
+	)
+	(label "CAS2"
+		(at 58.42 66.04 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "79e6b865-88c5-4235-8aa4-3f143b5405e3")
 	)
 	(label "CAS1"
 		(at 106.68 157.48 270)
@@ -2935,6 +2948,29 @@
 		)
 		(uuid "878ecded-502b-47df-bbae-d8af11140bfa")
 	)
+	(label "RAS3"
+		(at 139.7 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8975fa5d-89e9-4c11-9e86-7f9abf582bca")
+		(property "Net Class" ""
+			(at 139.7 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
 	(label "A1_2"
 		(at 50.8 157.48 270)
 		(effects
@@ -2965,16 +3001,6 @@
 		)
 		(uuid "8c5f3ac8-e3fe-4b0d-83fb-13d6d4d9891e")
 	)
-	(label "A5_3"
-		(at 48.26 76.2 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8ca595fa-cd44-4345-bd13-078f5c7f140f")
-	)
 	(label "A2"
 		(at 96.52 66.04 270)
 		(effects
@@ -2985,7 +3011,7 @@
 		)
 		(uuid "8d3afa48-7e74-4c30-acad-5c6c5dfe62db")
 	)
-	(label "A5_3"
+	(label "A5_2"
 		(at 48.26 137.16 90)
 		(effects
 			(font
@@ -3035,6 +3061,26 @@
 		)
 		(uuid "92ccdf44-429e-4730-809b-6b453bf3f65e")
 	)
+	(label "CAS3"
+		(at 58.42 96.52 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "948e83b3-02b7-4908-8326-394f79d7f96a")
+	)
+	(label "A4_2"
+		(at 45.72 106.68 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95441654-ae80-4fa9-a85a-ad9e2f5b55ca")
+	)
 	(label "A7"
 		(at 91.44 127 270)
 		(effects
@@ -3075,7 +3121,17 @@
 		)
 		(uuid "9d87a34d-3027-474a-bc42-5c3abb515849")
 	)
-	(label "A4_"
+	(label "A6_2"
+		(at 50.8 106.68 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9da25ab2-f65f-4846-82c4-04d403310fd2")
+	)
+	(label "A4"
 		(at 93.98 76.2 90)
 		(effects
 			(font
@@ -3084,6 +3140,16 @@
 			(justify left bottom)
 		)
 		(uuid "9dfbeadd-9c5a-484a-b66b-8433a79ca223")
+	)
+	(label "CAS2"
+		(at 58.42 157.48 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9f222ef5-8130-4914-aadf-b8551ce80d5e")
 	)
 	(label "A7"
 		(at 91.44 96.52 270)
@@ -3125,6 +3191,16 @@
 		)
 		(uuid "a966c84a-d810-4a44-a64e-eba7ec7d58a1")
 	)
+	(label "A5_2"
+		(at 48.26 106.68 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af4878e5-6a55-46e3-89a1-0e517f7adb2a")
+	)
 	(label "OE"
 		(at 111.76 76.2 90)
 		(effects
@@ -3145,7 +3221,7 @@
 		)
 		(uuid "b30d50ad-ebd4-492e-82e4-af668ff84075")
 	)
-	(label "A6_"
+	(label "A6"
 		(at 99.06 45.72 90)
 		(effects
 			(font
@@ -3154,6 +3230,29 @@
 			(justify left bottom)
 		)
 		(uuid "b508aa03-a6ad-408e-ba46-31d4eb38f5a7")
+	)
+	(label "RAS2"
+		(at 53.34 45.72 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6a4c286-69cc-4e8d-acf9-161bfa7c99c2")
+		(property "Net Class" ""
+			(at 54.61 45.72 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "OE"
 		(at 111.76 106.68 90)
@@ -3175,6 +3274,16 @@
 		)
 		(uuid "bfa2c633-333d-4613-967e-50793793e752")
 	)
+	(label "A6_2"
+		(at 50.8 45.72 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "caf3148b-1ed7-4ae3-915a-3ac32ce08ab6")
+	)
 	(label "A1"
 		(at 99.06 96.52 270)
 		(effects
@@ -3184,26 +3293,6 @@
 			(justify right bottom)
 		)
 		(uuid "cb1fa190-9b5b-426c-bc81-3f3936203306")
-	)
-	(label "A5_3"
-		(at 48.26 45.72 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cf2dca2b-180f-462f-9899-fe25dff160b4")
-	)
-	(label "A4_3"
-		(at 45.72 45.72 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cfa9047d-5f8e-4537-a13d-971001107888")
 	)
 	(label "WE"
 		(at 104.14 106.68 90)
@@ -3235,7 +3324,7 @@
 		)
 		(uuid "d9738c03-0917-4ce1-bc91-a65926029b52")
 	)
-	(label "A5_"
+	(label "A5"
 		(at 96.52 45.72 90)
 		(effects
 			(font
@@ -3244,6 +3333,16 @@
 			(justify left bottom)
 		)
 		(uuid "dd1b614a-1aca-43ea-9683-d4d014a6c405")
+	)
+	(label "A4_2"
+		(at 45.72 76.2 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dda51cd6-5bf5-45ab-a54f-164cb3c3d433")
 	)
 	(label "A0"
 		(at 101.6 96.52 270)
@@ -3275,6 +3374,16 @@
 		)
 		(uuid "e7c18b0b-f879-4dac-9f32-10090c19668b")
 	)
+	(label "A5_2"
+		(at 48.26 45.72 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8b7755c-6ee0-417a-b740-34ecfe0771b4")
+	)
 	(label "A0_2"
 		(at 53.34 96.356 270)
 		(effects
@@ -3305,6 +3414,39 @@
 		)
 		(uuid "ebcfb08e-0385-4d44-aba5-6c000ed602a5")
 	)
+	(label "RAS3"
+		(at 53.34 106.68 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ebd98eb4-b26e-43b3-a83e-8eccce41a90c")
+		(property "Net Class" ""
+			(at 54.61 106.68 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(label "A4_2"
+		(at 45.72 45.72 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ebf73ddf-a616-476e-9b46-6c6a059f4d01")
+	)
 	(label "A5"
 		(at 96.52 137.16 90)
 		(effects
@@ -3315,7 +3457,7 @@
 		)
 		(uuid "edc76426-13db-4d10-b4b9-b67147147eb2")
 	)
-	(label "A4_3"
+	(label "A4_2"
 		(at 45.72 137.16 90)
 		(effects
 			(font
@@ -3355,6 +3497,29 @@
 		)
 		(uuid "fc02019d-892a-4fcb-8735-20f7ea7e10fd")
 	)
+	(label "RAS2"
+		(at 53.34 137.16 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc2caae3-acf5-42fd-aa2a-e4c04fc9094c")
+		(property "Net Class" ""
+			(at 54.61 137.16 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(label "A7_2"
 		(at 43.18 127 270)
 		(effects
@@ -3376,164 +3541,8 @@
 		(uuid "fca13427-2e20-40c0-a2bb-c08d8773c373")
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 63.5 66.04 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06b95ad3-dc84-4b8f-90bb-ab0ab9c889b5")
-		(property "Reference" "#PWR013"
-			(at 59.69 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 68.58 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 63.5 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ac71bd07-960f-4e18-bd82-22e68f73677f")
-		)
-		(instances
-			(project "VGA"
-				(path "/14843cd2-5195-49a8-911b-ae96a31ffbfd"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 111.76 127 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "11ce95ac-77b7-4134-9f53-776a436d2541")
-		(property "Reference" "#PWR06"
-			(at 107.95 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 116.84 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 111.76 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1d6add20-5f17-4b42-9804-778b4aa72c00")
-		)
-		(instances
-			(project "VGA"
-				(path "/14843cd2-5195-49a8-911b-ae96a31ffbfd"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Network09")
-		(at 190.5 86.36 270)
+		(at 187.96 86.36 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3543,7 +3552,7 @@
 		(dnp no)
 		(uuid "16a2cbe9-b415-430e-a676-7a71be600b36")
 		(property "Reference" "RN11"
-			(at 193.04 73.66 90)
+			(at 190.5 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3554,7 +3563,7 @@
 			)
 		)
 		(property "Value" "R_Network10"
-			(at 188.9761 73.66 0)
+			(at 186.4361 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3566,7 +3575,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Array_SIP10"
-			(at 190.5 100.965 90)
+			(at 187.96 100.965 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3577,7 +3586,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 190.5 86.36 0)
+			(at 187.96 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3588,7 +3597,7 @@
 			)
 		)
 		(property "Description" "9 resistor network, star topology, bussed resistors, small symbol"
-			(at 190.5 86.36 0)
+			(at 187.96 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3639,7 +3648,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 137.16 270)
+		(at 63.5 96.52 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3648,9 +3657,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "269b96a7-ecca-4a50-9921-c056ce8a63c3")
-		(property "Reference" "#PWR012"
-			(at 36.83 137.16 0)
+		(uuid "1858f8a5-437d-4efd-95a3-e4f50c986415")
+		(property "Reference" "#PWR025"
+			(at 69.85 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3661,17 +3670,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 137.16 0)
+			(at 67.31 96.5199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 137.16 0)
+			(at 63.5 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3682,7 +3692,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 137.16 0)
+			(at 63.5 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3693,7 +3703,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 137.16 0)
+			(at 63.5 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3704,12 +3714,249 @@
 			)
 		)
 		(pin "1"
-			(uuid "0abefdc4-2f6f-4f59-b25b-9d2fdbea7a2c")
+			(uuid "c3671754-fc74-4a52-ada6-3888a786d403")
 		)
 		(instances
 			(project "VGA"
 				(path "/14843cd2-5195-49a8-911b-ae96a31ffbfd"
-					(reference "#PWR012")
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 43.18 106.68 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "221c9501-6e53-4d73-8f9d-6898ad775842")
+		(property "Reference" "#PWR026"
+			(at 46.99 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 39.37 106.6799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 43.18 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8d4784eb-ba66-46d1-ae92-0a9224f5931d")
+		)
+		(instances
+			(project "VGA"
+				(path "/14843cd2-5195-49a8-911b-ae96a31ffbfd"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 111.76 96.52 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30e880a1-198a-4dea-84d3-cf0e77456266")
+		(property "Reference" "#PWR015"
+			(at 118.11 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 96.5199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f9aee005-d013-480b-b125-a2b23bb84821")
+		)
+		(instances
+			(project "VGA"
+				(path "/14843cd2-5195-49a8-911b-ae96a31ffbfd"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 43.18 76.2 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f7a21b2-17e6-49e4-b716-6126e1d4c153")
+		(property "Reference" "#PWR024"
+			(at 46.99 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 39.37 76.1999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 43.18 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "efa6e677-734f-4a35-b63d-1b735862f0dd")
+		)
+		(instances
+			(project "VGA"
+				(path "/14843cd2-5195-49a8-911b-ae96a31ffbfd"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -3845,7 +4092,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Network09")
-		(at 148.59 36.83 270)
+		(at 147.32 58.42 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3855,7 +4102,7 @@
 		(dnp no)
 		(uuid "4da4f63f-47ed-4329-914c-7c088ab2c6a6")
 		(property "Reference" "RN5"
-			(at 148.59 23.622 90)
+			(at 147.32 45.212 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3865,7 +4112,7 @@
 			)
 		)
 		(property "Value" "R_Network10"
-			(at 148.336 22.86 90)
+			(at 147.066 44.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3876,7 +4123,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Array_SIP10"
-			(at 148.59 51.435 90)
+			(at 147.32 73.025 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3887,7 +4134,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 148.59 36.83 0)
+			(at 147.32 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3898,7 +4145,7 @@
 			)
 		)
 		(property "Description" "9 resistor network, star topology, bussed resistors, small symbol"
-			(at 148.59 36.83 0)
+			(at 147.32 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3942,318 +4189,6 @@
 			(project "VGA"
 				(path "/14843cd2-5195-49a8-911b-ae96a31ffbfd"
 					(reference "RN5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 91.44 137.16 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "557a9737-f4be-4f7d-88cd-806510cfc463")
-		(property "Reference" "#PWR07"
-			(at 85.09 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 86.36 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8b7536ff-c94d-45fa-affe-5b49d422df7d")
-		)
-		(instances
-			(project "VGA"
-				(path "/14843cd2-5195-49a8-911b-ae96a31ffbfd"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 63.5 96.52 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "55e858ef-0c47-48b2-ac5d-80ba19845601")
-		(property "Reference" "#PWR014"
-			(at 59.69 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 68.58 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 63.5 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ce861017-f836-4c69-ac03-f8d927c372bd")
-		)
-		(instances
-			(project "VGA"
-				(path "/14843cd2-5195-49a8-911b-ae96a31ffbfd"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 43.18 106.68 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58ba2b06-a777-4ead-bab1-72b1f13bfe47")
-		(property "Reference" "#PWR011"
-			(at 36.83 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 38.1 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9556491a-f58c-4c27-9a09-681c1071a794")
-		)
-		(instances
-			(project "VGA"
-				(path "/14843cd2-5195-49a8-911b-ae96a31ffbfd"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 43.18 76.2 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5c7d4f56-e8d3-4cf6-9a87-d45ecb1e2657")
-		(property "Reference" "#PWR010"
-			(at 36.83 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 38.1 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e547fcf1-d54f-405c-8f41-522f10b1913f")
-		)
-		(instances
-			(project "VGA"
-				(path "/14843cd2-5195-49a8-911b-ae96a31ffbfd"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -4388,6 +4323,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 43.18 137.16 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "715265cf-7e05-4690-bb92-1b7e4b305955")
+		(property "Reference" "#PWR016"
+			(at 46.99 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 39.37 137.1599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 43.18 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9715f708-72e8-414d-9709-5d69bcb3bc4c")
+		)
+		(instances
+			(project "VGA"
+				(path "/14843cd2-5195-49a8-911b-ae96a31ffbfd"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "4464_DRAM:4464_DRAM_Physical")
 		(at 101.6 86.36 270)
 		(unit 1)
@@ -4516,86 +4530,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 63.5 127 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "79c17082-d071-4378-92b3-d9b029b9338f")
-		(property "Reference" "#PWR015"
-			(at 59.69 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 68.58 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 63.5 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1e6fb84e-dc04-4e15-a1ce-2c7719d21416")
-		)
-		(instances
-			(project "VGA"
-				(path "/14843cd2-5195-49a8-911b-ae96a31ffbfd"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Network09")
-		(at 181.61 36.83 270)
+		(at 187.96 58.42 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4605,7 +4541,7 @@
 		(dnp no)
 		(uuid "79e2f5e4-58a9-4802-88d3-701f9bdde725")
 		(property "Reference" "RN7"
-			(at 181.61 23.622 90)
+			(at 187.96 45.212 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4615,7 +4551,7 @@
 			)
 		)
 		(property "Value" "R_Network10"
-			(at 181.356 22.86 90)
+			(at 187.706 44.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4626,7 +4562,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Array_SIP10"
-			(at 181.61 51.435 90)
+			(at 187.96 73.025 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4637,7 +4573,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 181.61 36.83 0)
+			(at 187.96 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4648,7 +4584,7 @@
 			)
 		)
 		(property "Description" "9 resistor network, star topology, bussed resistors, small symbol"
-			(at 181.61 36.83 0)
+			(at 187.96 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4698,8 +4634,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 111.76 66.04 270)
+		(lib_id "power:GND")
+		(at 111.76 157.48 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4708,9 +4644,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "867ae2d0-9a59-412b-aaf1-f7c8e5fa825c")
-		(property "Reference" "#PWR01"
-			(at 107.95 66.04 0)
+		(uuid "7aebd89d-bf0a-479d-93c3-cfc258074737")
+		(property "Reference" "#PWR013"
+			(at 118.11 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4720,18 +4656,19 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 116.84 66.04 0)
+		(property "Value" "GND"
+			(at 115.57 157.4799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 66.04 0)
+			(at 111.76 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4742,7 +4679,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 66.04 0)
+			(at 111.76 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4752,8 +4689,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 111.76 66.04 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4764,12 +4701,328 @@
 			)
 		)
 		(pin "1"
-			(uuid "d73de908-a211-42f6-843e-4a4b250b721d")
+			(uuid "0ce36a4c-b7cc-4bbc-87ac-b87f573e1809")
 		)
 		(instances
 			(project "VGA"
 				(path "/14843cd2-5195-49a8-911b-ae96a31ffbfd"
-					(reference "#PWR01")
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 63.5 127 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fffc480-b5a0-4a53-8d62-c649a6d578db")
+		(property "Reference" "#PWR027"
+			(at 69.85 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 126.9999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "671ea211-fa83-4d55-bd7b-60671fe0930b")
+		)
+		(instances
+			(project "VGA"
+				(path "/14843cd2-5195-49a8-911b-ae96a31ffbfd"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 111.76 127 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "850bad87-bda7-46b1-ba65-b0854312e674")
+		(property "Reference" "#PWR014"
+			(at 118.11 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 126.9999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "039585f5-ce44-43e4-a3c2-08ab1a8c1cca")
+		)
+		(instances
+			(project "VGA"
+				(path "/14843cd2-5195-49a8-911b-ae96a31ffbfd"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 91.44 137.16 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "943613a4-9cf6-429b-8949-3f9063795958")
+		(property "Reference" "#PWR017"
+			(at 95.25 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 87.63 137.1599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 91.44 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f8ee26c3-f208-42c8-8e89-c5b01465bfd5")
+		)
+		(instances
+			(project "VGA"
+				(path "/14843cd2-5195-49a8-911b-ae96a31ffbfd"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 63.5 66.04 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94bcc932-f9b4-4668-8086-0174cf38f1e6")
+		(property "Reference" "#PWR023"
+			(at 69.85 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 66.0399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "143c962b-9d8f-4654-bf79-042474745a72")
+		)
+		(instances
+			(project "VGA"
+				(path "/14843cd2-5195-49a8-911b-ae96a31ffbfd"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -4881,7 +5134,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 111.76 157.48 270)
+		(at 91.44 76.2 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4890,9 +5143,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9f2206c3-9c65-49d3-b980-ad8217c0b00c")
-		(property "Reference" "#PWR08"
-			(at 107.95 157.48 0)
+		(uuid "a1964d74-9599-4b19-84c0-e8c75300422b")
+		(property "Reference" "#PWR019"
+			(at 95.25 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4903,17 +5156,18 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 116.84 157.48 0)
+			(at 87.63 76.1999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 157.48 0)
+			(at 91.44 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4924,7 +5178,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 157.48 0)
+			(at 91.44 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4935,7 +5189,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 111.76 157.48 0)
+			(at 91.44 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4946,90 +5200,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ad2f6ff4-c62e-4c33-8b07-d2f17a353b74")
+			(uuid "0a89932d-8351-4ed8-a919-52befdd1f074")
 		)
 		(instances
 			(project "VGA"
 				(path "/14843cd2-5195-49a8-911b-ae96a31ffbfd"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 63.5 157.48 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a60cdc5b-659f-4bb5-ad0a-c3f97f71b743")
-		(property "Reference" "#PWR016"
-			(at 59.69 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 68.58 157.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 63.5 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "251ca8dd-6d06-42f1-814d-ef0ba2cbe557")
-		)
-		(instances
-			(project "VGA"
-				(path "/14843cd2-5195-49a8-911b-ae96a31ffbfd"
-					(reference "#PWR016")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -5037,7 +5213,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 106.68 270)
+		(at 63.5 157.48 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5046,9 +5222,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a626b500-beff-4efc-95de-90c806852dc6")
-		(property "Reference" "#PWR05"
-			(at 85.09 106.68 0)
+		(uuid "a28dce47-cf88-476d-bbf8-a97f4011001f")
+		(property "Reference" "#PWR012"
+			(at 69.85 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5059,17 +5235,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 106.68 0)
+			(at 67.31 157.4799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 106.68 0)
+			(at 63.5 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5080,7 +5257,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 106.68 0)
+			(at 63.5 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5091,7 +5268,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 106.68 0)
+			(at 63.5 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5102,12 +5279,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c54a7680-75bf-429d-a849-0a7d6a97f680")
+			(uuid "803ac25b-2226-47b6-9a0c-bcb09de1a6e4")
 		)
 		(instances
 			(project "VGA"
 				(path "/14843cd2-5195-49a8-911b-ae96a31ffbfd"
-					(reference "#PWR05")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5243,7 +5420,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Network09")
-		(at 168.91 86.36 270)
+		(at 167.64 86.36 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5253,7 +5430,7 @@
 		(dnp no)
 		(uuid "a7fc2416-663b-4c64-805c-c5cdd7c20373")
 		(property "Reference" "RN10"
-			(at 168.91 73.66 90)
+			(at 167.64 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5263,7 +5440,7 @@
 			)
 		)
 		(property "Value" "R_Network10"
-			(at 168.656 72.39 90)
+			(at 167.386 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5274,7 +5451,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Array_SIP10"
-			(at 168.91 100.965 90)
+			(at 167.64 100.965 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5285,7 +5462,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 168.91 86.36 0)
+			(at 167.64 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5296,7 +5473,7 @@
 			)
 		)
 		(property "Description" "9 resistor network, star topology, bussed resistors, small symbol"
-			(at 168.91 86.36 0)
+			(at 167.64 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5340,84 +5517,6 @@
 			(project "VGA"
 				(path "/14843cd2-5195-49a8-911b-ae96a31ffbfd"
 					(reference "RN10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 111.76 96.52 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b46be1b4-c3b0-4ac2-832f-d714bb1e9596")
-		(property "Reference" "#PWR04"
-			(at 107.95 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 116.84 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 111.76 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6254124a-e7f3-457a-8cd4-d5046bb6c2d1")
-		)
-		(instances
-			(project "VGA"
-				(path "/14843cd2-5195-49a8-911b-ae96a31ffbfd"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5681,7 +5780,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 76.2 270)
+		(at 111.76 66.04 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5690,9 +5789,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c7ecd9a8-c629-41de-b363-eb01833dad83")
-		(property "Reference" "#PWR03"
-			(at 85.09 76.2 0)
+		(uuid "c835b742-5ef0-4660-8ee7-e8ab39a56525")
+		(property "Reference" "#PWR021"
+			(at 118.11 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5703,17 +5802,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 76.2 0)
+			(at 115.57 66.0399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 76.2 0)
+			(at 111.76 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5724,7 +5824,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 76.2 0)
+			(at 111.76 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5735,7 +5835,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 76.2 0)
+			(at 111.76 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5746,12 +5846,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "abec0b5a-81df-4abf-a2f6-74fdd93ee43a")
+			(uuid "1532159d-cc35-4aed-94ac-c5dfbfd2e76d")
 		)
 		(instances
 			(project "VGA"
 				(path "/14843cd2-5195-49a8-911b-ae96a31ffbfd"
-					(reference "#PWR03")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -5759,7 +5859,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Network09")
-		(at 166.37 36.83 270)
+		(at 167.64 58.42 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5769,7 +5869,7 @@
 		(dnp no)
 		(uuid "cc0431ca-0949-4242-be4d-1cc93eccb1d8")
 		(property "Reference" "RN6"
-			(at 166.37 23.622 90)
+			(at 167.64 45.212 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5779,7 +5879,7 @@
 			)
 		)
 		(property "Value" "R_Network10"
-			(at 166.116 22.86 90)
+			(at 167.386 44.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5790,7 +5890,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Array_SIP10"
-			(at 166.37 51.435 90)
+			(at 167.64 73.025 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5801,7 +5901,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 166.37 36.83 0)
+			(at 167.64 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5812,7 +5912,7 @@
 			)
 		)
 		(property "Description" "9 resistor network, star topology, bussed resistors, small symbol"
-			(at 166.37 36.83 0)
+			(at 167.64 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5862,8 +5962,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 43.18 45.72 270)
+		(lib_id "power:+5V")
+		(at 43.18 45.72 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5872,9 +5972,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "da7034f6-6970-4663-9923-7b71a769394a")
-		(property "Reference" "#PWR09"
-			(at 36.83 45.72 0)
+		(uuid "d7fca015-52f7-4d63-9d7e-ecf1105fdc57")
+		(property "Reference" "#PWR022"
+			(at 46.99 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5884,14 +5984,15 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 38.1 45.72 0)
+		(property "Value" "+5V"
+			(at 39.37 45.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5916,7 +6017,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 43.18 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5928,12 +6029,170 @@
 			)
 		)
 		(pin "1"
-			(uuid "f6b1ddd2-efcf-4783-98cc-51ebba080ead")
+			(uuid "b7dd8d57-be3f-47ba-ad87-ba9dd693ea9e")
 		)
 		(instances
 			(project "VGA"
 				(path "/14843cd2-5195-49a8-911b-ae96a31ffbfd"
-					(reference "#PWR09")
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 91.44 106.68 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3e35a04-1216-4f77-8530-60c601deab48")
+		(property "Reference" "#PWR018"
+			(at 95.25 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 87.63 106.6799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 91.44 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "11b2f54f-479d-40bc-8256-7cd56199b208")
+		)
+		(instances
+			(project "VGA"
+				(path "/14843cd2-5195-49a8-911b-ae96a31ffbfd"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 91.44 45.72 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4788095-9d6e-4855-9572-ca1e4f5e302e")
+		(property "Reference" "#PWR020"
+			(at 95.25 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 87.63 45.7199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 91.44 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ba70733c-c2a4-4e2d-af55-f13407e3f01f")
+		)
+		(instances
+			(project "VGA"
+				(path "/14843cd2-5195-49a8-911b-ae96a31ffbfd"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -6062,84 +6321,6 @@
 			(project "VGA"
 				(path "/14843cd2-5195-49a8-911b-ae96a31ffbfd"
 					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 91.44 45.72 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ebc7f17c-6b28-4d50-955c-cd9aa8ec1345")
-		(property "Reference" "#PWR02"
-			(at 85.09 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 86.36 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "10c4e023-733c-487d-915e-272735fafbc4")
-		)
-		(instances
-			(project "VGA"
-				(path "/14843cd2-5195-49a8-911b-ae96a31ffbfd"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
