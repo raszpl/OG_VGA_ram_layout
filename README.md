@@ -5,4 +5,4 @@ and two GDCs into one huge ass ~200 pin LSI and called it a day. This would mean
 EGA implementation is documented in IBMs original diagrams and Tube Times fantastic reversed pcb https://github.com/schlae/EGACard.
 Original EGA used two LSI GDCs (Graphics Data Controllers) each controlling 4 ram chips and 16bit of data bus giving it combined 32bit data bus.
 
-Initial examination of kindly provided PCB photos  makes me question initial assumptions.
+Tracing visible tracks confirms it. Original IBM VGA implementations didnt differ logically from EGA.
